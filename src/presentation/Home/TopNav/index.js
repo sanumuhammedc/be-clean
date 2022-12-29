@@ -10,7 +10,7 @@ const index = () => {
           BeClean
         </h4>
 
-        <div className=" flex flex-row items-center space-x-4 m-0">
+        <div className=" flex items-center space-x-4 m-0">
           <img src={search} alt="" />
           <div className="rounded-[1.4rem] bg-[#3F63F4] flex">
             <h2 className="p-2 text-white font-poppins font-normal text-[1.2rem]">
