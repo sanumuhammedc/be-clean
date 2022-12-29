@@ -43,7 +43,7 @@ function Index({ id, location, likes, userName, liked }) {
     setIsLiked(liked);
   }, [liked]);
   return (
-    <div onClick={() => navigate("/eventDetails", { state: { id: id } })} className="w-100 content-center justify-center ">
+    <div onClick={() => navigate("/eventDetails", { state: { id: id } })} className="sm:w-100 md:w-2/5 lg:w-2/5  content-center justify-center ">
       <div id="base_card">
         <div id="content_card">
           <div>

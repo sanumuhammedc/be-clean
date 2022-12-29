@@ -11,14 +11,13 @@ function Index() {
   const user = auth.currentUser;
 
   React.useEffect(() => {
-
-    getEvents().then(events => {
-      setEvents(events)
-      getLiked(Object.keys(events), user.uid).then(l => {
-        console.log("kikekek", l)
+    getEvents().then((events) => {
+      setEvents(events);
+      getLiked(Object.keys(events), user.uid).then((l) => {
+        console.log("kikekek", l);
         setLiked(l);
-      })
-      console.log(events)
+      });
+      console.log(events);
     });
   }, []);
   return (
@@ -26,18 +25,20 @@ function Index() {
       <TopNav />
       <TopButtons />
 
-      {Object.entries(events).map(([eventKey, eventData], i) => {
-        return (
-          <Header1
-            key={i}
-            id={eventKey}
-            location={eventData.location}
-            userName={eventData.creatorName}
-            likes={eventData.like_count ?? 0}
-            liked={!!liked[eventKey]}
-          />
-        );
-      })}
+      <div className="md:flex lg:md:flex justify-around flex-wrap  items-center">
+        {Object.entries(events).map(([eventKey, eventData], i) => {
+          return (
+            <Header1 
+              key={i}
+              id={eventKey}
+              location={eventData.location}
+              userName={eventData.creatorName}
+              likes={eventData.like_count ?? 0}
+              liked={!!liked[eventKey]}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
