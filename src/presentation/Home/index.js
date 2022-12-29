@@ -22,7 +22,7 @@ function Index() {
     });
   }, []);
   return (
-    <div className="w-[90%] justify-center ml-5 space-y-4">
+    <div className="justify-center ml-5 space-y-4">
       <TopNav />
       <TopButtons />
 

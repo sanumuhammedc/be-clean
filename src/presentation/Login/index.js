@@ -40,7 +40,7 @@ const Login = () => {
         <h2 className=" font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-[#3F63F4] to-[#0A0C2B]">
           Be Clean
         </h2>
-        <div className="bg-white shadow rounded lg:w-1/3  md:w-1/2 w-full p-10 mt-16">
+        <div className="bg-white shadow rounded w-full p-10 mt-16">
           <p
             tabIndex={0}
             className="focus:outline-none text-2xl font-extrabold leading-6 text-gray-800"
@@ -63,7 +63,6 @@ const Login = () => {
           <button
             onClick={signIn}
             aria-label="Continue with google"
-            role="button"
             className="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-10"
           >
             <img

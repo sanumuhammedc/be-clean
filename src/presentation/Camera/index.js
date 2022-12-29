@@ -1,7 +1,7 @@
   import CameraIcon from "@mui/icons-material/Camera";
   import HomeIcon from "@mui/icons-material/Home";
   import React, { useRef, useState } from "react";
-  import { Link } from "react-router-dom";
+  import { Link, useNavigate } from "react-router-dom";
   import Webcam from "react-webcam";
   import { getLocation } from "../../functions/location";
   export default function Camera({ onClick }) {
