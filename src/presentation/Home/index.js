@@ -25,7 +25,7 @@ function Index() {
       <TopNav />
       <TopButtons />
 
-      <div className="md:flex lg:md:flex justify-around flex-wrap  items-center">
+      <div className="md:flex lg:md:flex mb-10 justify-around flex-wrap  items-center">
         {Object.entries(events).map(([eventKey, eventData], i) => {
           return (
             <Header1 
