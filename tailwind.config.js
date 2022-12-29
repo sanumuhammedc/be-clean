@@ -1,14 +1,12 @@
-/**
- * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
- */
- module.exports = {
-  content: [
-    "./node_modules/flowbite-react/**/*.js",
-    "./pages/**/*.{ts,tsx}",
-    "./public/**/*.html",
-  ],
-  plugins: [
-    require("flowbite/plugin")
-  ],
-  theme: {},
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
+    },
+  },
+  plugins: [],
 };
