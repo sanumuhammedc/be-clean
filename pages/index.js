@@ -1,12 +1,10 @@
-import { Inter } from '@next/font/google'
-import { Alert } from "flowbite-react";
-
-const inter = Inter({ subsets: ['latin'] })
+import BottomNav from "../components/BottomNav"
 
 export default function Home() {
   return (
-    <>
+    <div>
       
-    </>
+      <BottomNav/>
+    </div>
   )
 }
