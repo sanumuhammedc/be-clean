@@ -12,9 +12,8 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = useState(0);
 
   return (
-    <div className="fixed bottom-0">
-      <Box sx={{ width: 400 }}>
         <BottomNavigation
+          className="fixed bottom-0 flex justify-around w-[100%]"
           showLabels
           value={value}
           onChange={(event, newValue) => {
@@ -37,7 +36,5 @@ export default function SimpleBottomNavigation() {
             icon={<img src={usersquare} alt="userSquare" />}
           />
         </BottomNavigation>
-      </Box>
-    </div>
   );
 }
