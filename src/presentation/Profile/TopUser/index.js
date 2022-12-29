@@ -43,44 +43,55 @@ function Index() {
 
       <div className="mt-5 flex flex-row justify-center">
         <Button
-          style={{ borderRadius: 50 }}
+          style={{borderColor:"black", borderRadius: 50 }}
           variant="outlined"
           endIcon={<img src={coin} alt="coin" />}
         >
-          <div className="font-bold text-[#0A0C2B]">Upcoming Rewards : 400</div>
+          <div className="font-bold">Upcoming Rewards : 400</div>
         </Button>
       </div>
       <div className="mt-5 flex flex-row justify-center">
         {/* card area starts here  */}
-        <Card sx={{ minWidth: 275, borderRadius: 5 }}>
+        <Card
+                        variant="outlined"
+                        
+                        sx={{
+                          minWidth:300,
+                          alignContent: "center",
+                          borderRadius: 5,
+                          padding:0,
+                          borderColor: 'black',
+                        }}  
+        >
           <CardContent>
             <div className="flex justify-between ">
               <Typography
-                sx={{ fontSize: 18, fontWeight: 600 }}
+                sx={{ fontSize: 18, fontWeight: 600,mr:10,ml:1}}
                 color="text.secondary"
                 gutterBottom
               >
                 Kovalam Beach
               </Typography>
-              <div></div>
+              
 
               <img src={Group} alt="" />
+              
               <Typography
-                sx={{ fontSize: 18, fontWeight: 600 }}
+                sx={{ fontSize: 18, fontWeight: 600,mr:2}}
                 color="text.secondary"
                 gutterBottom
               >
+                
                 2k
               </Typography>
             </div>
           </CardContent>
           <CardActions className="flex justify-between">
-            <div className="ml-3 mb-4  px-5 rounded-2xl bg-[#FBA859]">
-              {" "}
+            <div className="ml-3 mr-7 mb-4  px-5 rounded-2xl bg-[#FBA859]">
               Pending
             </div>
             <Typography
-              sx={{ fontSize: 18, fontWeight: 600, marginBottom: 2 }}
+              sx={{ fontSize: 18, fontWeight: 600,mr:3 }}
               color="text.secondary"
               gutterBottom
             >
@@ -88,6 +99,8 @@ function Index() {
             </Typography>
           </CardActions>
         </Card>
+        
+        
       </div>
     </div>
   );

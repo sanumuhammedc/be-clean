@@ -98,7 +98,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ width: "100%",pb:10}}>
       <Box
         sx={{
           borderBottom: 1,
@@ -122,19 +122,20 @@ export default function BasicTabs() {
           spacing={2}
           sx={{
             display: "flex",
-            flexDirection: "Column",
-            marginLeft: 0.2,
+            flexDirection: "row",
             justifyContent: "center",
           }}
         >
           {approvedPlaceDetails.map((item) => (
-            <Grid item xs={5} md={1}>
+            <Grid item xs={50} md={15}>
               <Card
+                variant="outlined"
                 sx={{
-                  minWidth: 320,
+                  minWidth:300,
                   alignContent: "center",
                   borderRadius: 5,
-                  padding: 0,
+                  padding:0,
+                  borderColor: 'black',
                 }}
               >
                 <CardContent>
@@ -188,15 +189,16 @@ export default function BasicTabs() {
           sx={{
             display: "flex",
             flexDirection: "Column",
-            marginLeft: 0.2,
             justifyContent: "center",
           }}
         >
           {completedPlaceDetails.map((item) => (
-            <Grid item xs={5} md={1}>
+            <Grid item xs={50} md={15}>
               <Card
+                variant="outlined"
                 sx={{
-                  minWidth: 320,
+                  borderColor: 'black',
+                  minWidth: 300,
                   alignContent: "center",
                   borderRadius: 5,
                   padding: 0,
