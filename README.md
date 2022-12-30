@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+PROBLEM STATEMENT:
+"Seashores are major tourist attractions. But cleanliness in our
+seashores is very low. How can we mitigate this issue with the leverage
+of technology? Specifically, how can we design an application that
+allows users to identify areas in need of cleaning, organize and
+participate in cleaning events, and receive rewards for their efforts?"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SOLUTION: BeClean - A Community-Driven SeaShore Cleanliness
+Ensuring Application. With BeClean, users can upload
+pictures of places that have to be cleaned. Once the admin verifies the
+authenticity of the pictures, they’ll be listed in the app as a task. So
+users can come forward and participate in these cleaning events and
+share the pictures of the area they have cleaned up, along with the
+location of the site, and share their progress with the BeClean
+community. To incentivize participation, sponsors reward users for
+their efforts, encouraging them to continue participating and inspiring
+others to get involved. In addition to photo-sharing, BeClean also
+includes features like group creation and event organization, allowing
+users to connect and collaborate with others in their area to make a
+more significant impact. The admins evaluate the cleaned areas once a
+month to make sure they stay that way, and if they do, we give the
+team members who cleaned them earlier additional incentives
 
-## Available Scripts
+Tech Stacks Used:
+React, Tailwind CSS, Firebase
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Assumptions
+Government and NGO support for this project. As a part of haritha keralam mission by Kerala Government and Swachh Bharath mission by Indian Government, they are ready to collaborate with people who have innovative solutions for waste management. ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
