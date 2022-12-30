@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Index() {
   const navigate = useNavigate()
   return (
-    <div className="container  mt-12 max-w-md  ">
+    <div className="container mt-12">
       <div className="flex flex-row justify-between ">
         <div>
           <h4 className="font-poppins font-extrabold text-[1.7rem]">
