@@ -29,9 +29,9 @@ team members who cleaned them earlier additional incentives.
 
 ### Assumptions
 
-Government and NGO support for this project. As a part of Haritha Keralam mission by Kerala Government and Swachh Bharath mission by Indian Government, they are ready to collaborate with people who have innovative solutions for waste management. 
+Government and NGO support for this project. As a part of Haritha Keralam mission by Kerala Government and Swachh Bharath mission by Indian Government,Waste to Wealth Mission, they are ready to collaborate with people who have innovative solutions for waste management. 
 
-ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
+ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/ ||www.investindia.gov.in
 
 ## [Deployed Link](https://be-clean-wnrr.vercel.app/)
 ## [Figma Link](https://www.figma.com/file/wKZMVmIsVnh17iR7ISDAbH/Beclean_Beachhack?node-id=0%3A1&t=YH3k32JjyRsXxflZ-0)
