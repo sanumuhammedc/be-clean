@@ -32,3 +32,5 @@ team members who cleaned them earlier additional incentives
 Government and NGO support for this project. As a part of haritha keralam mission by Kerala Government and Swachh Bharath mission by Indian Government, they are ready to collaborate with people who have innovative solutions for waste management. 
 
 ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
+
+## [Deployed Link](https://be-clean-phi.vercel.app/)
