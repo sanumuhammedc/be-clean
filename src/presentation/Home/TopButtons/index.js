@@ -4,7 +4,7 @@ import React from "react";
 
 const index = () => {
   return (
-    <div className="space-x-4 items-center flex justify-around">
+    <div className="space-x-4 items-center flex justify-around mt-14">
       <Button
         variant="contained"
         className="rounded-[2rem]"

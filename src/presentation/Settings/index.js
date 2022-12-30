@@ -15,7 +15,7 @@ function Index() {
     console.log(error);
   });
   return (
-    <div className="container m-5 mt-12 ">
+    <div className="container p-5">
       <Top />
       <div>
         <SettingsCard text="Verify as Admin" />

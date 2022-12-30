@@ -38,19 +38,19 @@
 
     return (
       <div
-        className="flex flex-col items-center h-full"
+        className="flex flex-col items-center h-full m-0"
         style={{ backgroundColor: "#0A0C2B" }}
       >
         <Webcam
           audio={false}
           ref={webcamRef}
-          className="w-full h-64"
+          className="w-full"
           style={{ height: "100%" }}
         />
-        <div className="flex gap-5 ">
-          <CameraIcon onClick={capture} color="secondary" fontSize="large" />
+        <div className="flex gap-5 pb-7">
+          <CameraIcon onClick={capture} sx={{color: "white"}} fontSize="large" />
           <Link to="/">
-            <HomeIcon color="secondary" fontSize="large" />
+            <HomeIcon sx={{color: "white"}} fontSize="large" />
           </Link>
         </div>
 
