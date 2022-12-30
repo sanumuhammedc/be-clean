@@ -20,7 +20,7 @@ includes features like group creation and event organization, allowing
 users to connect and collaborate with others in their area to make a
 more significant impact. The admins evaluate the cleaned areas once a
 month to make sure they stay that way, and if they do, we give the
-team members who cleaned them earlier additional incentives
+team members who cleaned them earlier additional incentives.
 
 ## Tech Stacks Used
 - React
@@ -29,8 +29,9 @@ team members who cleaned them earlier additional incentives
 
 ### Assumptions
 
-Government and NGO support for this project. As a part of haritha keralam mission by Kerala Government and Swachh Bharath mission by Indian Government, they are ready to collaborate with people who have innovative solutions for waste management. 
+Government and NGO support for this project. As a part of Haritha Keralam mission by Kerala Government and Swachh Bharath mission by Indian Government,Waste to Wealth Mission, they are ready to collaborate with people who have innovative solutions for waste management. 
 
-ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
+ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/ ||www.investindia.gov.in
 
-## [Deployed Link](https://be-clean-phi.vercel.app/)
+## [Deployed Link](https://be-clean-wnrr.vercel.app/)
+## [Figma Link](https://www.figma.com/file/wKZMVmIsVnh17iR7ISDAbH/Beclean_Beachhack?node-id=0%3A1&t=YH3k32JjyRsXxflZ-0)
