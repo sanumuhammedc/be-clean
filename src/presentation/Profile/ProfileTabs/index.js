@@ -63,13 +63,13 @@ const approvedPlaceDetails = [
     approvalStatus: "Event start Approval",
   },
   {
-    name: "Cusat Campus",
+    name: "calicut beach",
     pcount: "1k",
     owner: "Gokul Krishnan",
     approvalStatus: "Event Completion Approval",
   },
   {
-    name: "Mec Campus",
+    name: "Kannur beach",
     pcount: "1.5k",
     owner: "Vaishnav",
     approvalStatus: "Event start Approval",
@@ -81,11 +81,11 @@ const completedPlaceDetails = [
     coinRecieved: 40,
   },
   {
-    name: "Cusat Campus",
+    name: "trivandrum beach",
     pcount: 60,
   },
   {
-    name: "Cusat Campus",
+    name: "thrissur beach",
     pcount: 100,
   },
 ];
