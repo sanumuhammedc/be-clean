@@ -34,3 +34,4 @@ Government and NGO support for this project. As a part of Haritha Keralam missio
 ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
 
 ## [Deployed Link](https://be-clean-wnrr.vercel.app/)
+## [Figma Link](https://www.figma.com/file/wKZMVmIsVnh17iR7ISDAbH/Beclean_Beachhack?node-id=0%3A1&t=YH3k32JjyRsXxflZ-0)
