@@ -33,4 +33,4 @@ Government and NGO support for this project. As a part of haritha keralam missio
 
 ref: https://haritham.kerala.gov.in/hygienic-waste-management/ || https://swachhbharat.mygov.in/
 
-## [Deployed Link](https://be-clean-phi.vercel.app/)
+## [Deployed Link](https://be-clean-wnrr.vercel.app/)
