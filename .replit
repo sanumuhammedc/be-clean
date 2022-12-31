@@ -1,6 +1,6 @@
 
 hidden = [".config"]
-run = "npm start"
+run = "yarn start"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
